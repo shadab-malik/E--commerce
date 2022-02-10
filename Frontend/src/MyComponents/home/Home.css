@@ -1,0 +1,169 @@
+
+.tagline{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 3vmax auto;
+   width: 60%;
+}
+.tagline1{
+    color: #424242;
+    font-size: 1.5vmax;
+    margin: 0.5vmax 0;
+    text-align: center;
+}
+.tagline2{
+    font-weight: 700;
+    font-size: 2.3vmax;
+    font-style: bold;
+    text-align: center;
+    margin: 0;
+}
+.poster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.him,.her{
+    width: 30%;
+    padding: 1em 0;
+}
+.him:hover,.her:hover{
+    cursor: pointer;
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 7vmax;
+    width: 50vw;
+    background-color: #eee;
+}
+
+.eimg{
+    width: 25vmax;
+    cursor: pointer;
+}
+.eline{
+    margin: 0;
+    font-size: 1.3vmax;
+    cursor: default;
+    text-align: center;
+}
+.eline2{
+    text-align: center;
+    font-size: 2.3vmax;
+    margin: 0;
+    cursor: default;
+}
+.eline3{
+    font-size: 1vmax;
+    width: 80%;
+    padding: 0.5vmax 0 0 3vmax;
+    cursor: default;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    width: 8vmax;
+    padding: 9px 13px;
+    margin: 1.5vmax 0vmax 0px 3vmax;
+    cursor: pointer;
+}
+
+.pheadingrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vmax;
+}
+.pheading{
+    border-left: 3px solid black;
+    width: 66.5vmax ;
+    text-align: left;
+    padding: 0 7px;
+    font-size: 1.5vmax;
+}
+.pcontainer{
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.tagline:hover{
+    cursor:default;
+}
+@media screen and (max-width:700px){
+    .tagline1{
+        margin-top:2vmax  ;
+    }
+    .him,.her{
+        width: 20vmax;
+        height: 23vmax;
+        padding: 0.5vmax;
+    }
+    .explore{
+        width: 35vmax;
+        display: flex;
+        flex-direction: column-reverse;
+        
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 7vmax;
+        background-color: #eee;
+
+    }
+    .eimg{
+        width: 35vmax;
+        cursor: pointer;
+    }
+    .eline2{
+        font-size:2.3vmax;
+        margin: 0;
+        cursor: default;
+        text-align: center;
+        padding-bottom: 12px;
+    }
+    .eline{
+        margin: 0;
+        font-size: 1.5vmax;
+        cursor: default;
+        padding-top: 12px;
+        text-align: center;
+    }
+    .eline3{
+        font-size: 1.2vmax;
+        cursor: default;
+        width: 80%;
+        line-height: 1.4em;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .btnrap{
+        text-align: center;
+    }
+    .btn{
+        width: 15vmax;
+        border-radius: 1em;
+        margin: 3vmax;
+        cursor: pointer;
+    }
+    .pheadingrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 6vmax 0 auto auto;
+    }
+    .pheading{
+        font-size: 2.5vmax;
+        border-left: 4px solid black;
+    }
+}

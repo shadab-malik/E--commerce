@@ -1,0 +1,43 @@
+
+.modal {
+  position: fixed;
+  z-index: 100;
+  width: 45%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(247, 245, 245);
+  overflow: scroll;
+}
+.cancel{
+    transform: translateY(40vh);
+    width: 5em;
+}
+
+.header{
+    padding: 12px;
+    border-bottom: 1px solid black;
+    font-size: 1vmax;
+    padding-top: 4vmax;
+    color: white;
+    background-color: tomato;
+}
+.rescategory,.rescontact{
+    text-align: left;
+    padding: 10px;
+  
+}
+.rescategory{
+    font-size: 2vmax;
+}
+.rescontact{
+    font-size: 1.5vmax;
+}
+.list{
+    padding: 2vmax;
+}
+
+@media screen and (max-width:700px) {
+    .modal {
+        width: 30vmax;
+    }
+}

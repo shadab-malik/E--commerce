@@ -1,0 +1,149 @@
+.navtop{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.hidden{
+  opacity: 0;
+  width: 12%;
+}
+.searchopener{
+  display: none;
+  width: 30vmax;
+  
+}
+.formsearch{
+  display: none;
+ 
+}
+
+.buttomNav{
+  margin-left:29vw ;
+  margin-right: 3vmax;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#search{
+  border :0;
+  border-bottom: 1px solid #222;
+  height: 3em;
+  font-size: 17px;
+  margin: 0;
+}
+#search:focus{
+  outline: none;
+}
+.login,
+.searchres,
+.cart,
+.wishlist {
+  width: 1.7em;
+}
+.search{
+  width: 1.5em;
+}
+.tag {
+  text-align: center;
+  line-height: 0px;
+  margin-top: 1vmax ;
+ 
+}
+
+ul {
+  list-style-type: none;
+}
+.ulA, .ulB,.ulC  {
+  width: 18vmax;
+  display: flex;
+  justify-content: space-around;
+}
+.ulC{
+  width: 30rem;
+  margin: 0;
+}
+.searchres{display: none;}
+.toggle{
+  display: none;
+}
+ .containerC {
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+.topLeftNav{
+  margin-top:1.5rem ;
+}
+.containerB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  margin-top: 0.5rem;
+}
+.logo {
+  width: 5vmax;
+
+}
+.search:hover , .cart:hover, .wishlist:hover, .login:hover, .tag:hover, .logo:hover, li:hover{
+    cursor: pointer;
+}
+.responsiveSearch{
+  display: none;
+ 
+
+}
+.responsiveInput{
+margin-top: 1vmax;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .buttomNav, .topLeftNav{
+    display: none;
+  }
+  .responsiveSearch{
+    display: contents;
+    
+  }
+ 
+  .toggle{
+    display: initial;
+    margin-top: .5vmax;
+   
+  }
+  .searchopener{
+  display: initial;
+  }
+   .containerC {
+    margin-right: 2vmax;
+}
+  .logo{
+    width: 3em;
+    margin-top: 4px;
+    }
+  .searchres{display: initial;}
+  .option{
+    width: 1.5em;
+    margin-left: .4em;
+    padding: 10px;
+  }
+  
+  .containerB {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.tag{
+  display: none;
+}
+
+
+  
+}
+
